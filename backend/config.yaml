@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# EA SmartKart Backend Configuration
+# ─────────────────────────────────────────────────────────────────────────────
+# Changes here take effect on the next backend restart.
+# Any value can also be overridden with an environment variable (see comments).
+
+openrouter:
+  base_url: "https://openrouter.ai/api/v1"
+
+  api_key: "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"
+
+  embed_model: "nvidia/nemotron-3-embed-1b:free"
+
+groq:
+  grok_api_key: "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"
+
+  base_url: "https://api.groq.com/openai/v1"
+
+  chat_model: "openai/gpt-oss-20b"
+
+llm:
+  # Sampling temperature (0.0 = deterministic, 1.0 = creative)
+  temperature: 0.7
+
+  # Max tokens to generate per response.
+  # Set to -1 for unlimited (required when reasoning is enabled).
+  max_tokens: 400
+
+  # Enable chain-of-thought reasoning (Qwen3 / compatible models only).
+  # WARNING: adds 30-100 s latency and requires max_tokens: -1
+  reasoning: false
+
+chat:
+  # How many past conversation turns to keep in context (each turn = 1 user + 1 AI message)
+  max_history_turns: 8
+
+  # Queries with fewer words than this threshold trigger broad RAG retrieval
+  vague_query_max_words: 8

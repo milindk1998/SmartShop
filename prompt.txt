@@ -1,0 +1,112 @@
+Chatbot Prompts
+Use prompts like these in the chat widget:
+
+Product discovery:
+
+“Show me running shoes”
+“What electronics do you have?”
+“Find me backpacks under $100”
+“Recommend something for home office”
+“Do you have waterproof jackets?”
+“Show me clothes for gym”
+
+Semantic/product-detail search:
+
+“I need something lightweight for travel”
+“Show products with good durability”
+“Find breathable workout tops”
+“Do you have items with cotton or spandex?”
+“Show me products with DDR5”
+“Find NVMe storage options”
+
+Top-rated / best-reviewed:
+
+“What are your top rated shoes?”
+“Show me the best reviewed clothing”
+“Which is the most popular bag?”
+“Recommend the best electronics”
+
+Compare products:
+
+“Compare running shoes and trail running shoes”
+“What’s the difference between backpack A and backpack B?”
+“Which is better, this keyboard or that speaker?”
+“Help me choose between two jackets”
+
+Add to cart:
+
+“Add the yoga mat to cart”
+“Add 2 running shoes”
+“Can you add a backpack for me?”
+“Add all of them”
+“Add this to my cart”
+
+Add with options:
+
+“Add the hoodie in size M”
+“Add trail running shoes in black UK 9”
+“I want the t-shirt, size L, color white”
+
+Update quantity:
+
+“Change the quantity of the hoodie to 3”
+“Reduce the shoes to 1”
+“Add one more of the backpack”
+“Increase the keyboard quantity to 2”
+
+Remove / clear cart:
+
+“Remove the hoodie from my cart”
+“Delete the running shoes”
+“Take out the backpack”
+“Clear my cart”
+“Remove everything from cart”
+
+Cart questions
+
+“What’s in my cart?”
+“Show my cart”
+“How much is in my cart?”
+“What is my cart total?”
+
+Bundles / setups
+
+“Build a bundle with clothes”
+“Create a workout bundle”
+“Suggest a home office setup”
+“Put together a gaming PC bundle”
+“What should I get for a travel bundle?”
+
+Order history / reorder
+
+“Show my order history”
+“What did I order before?”
+“Repeat my last order”
+“Reorder the same things again”
+“Buy the same as last time”
+
+Search In Page
+The page search supports two modes from page.tsx:
+
+Keyword search
+
+“headphones”
+“backpack”
+“shirt”
+“DDR5 RAM”
+“water bottle”
+
+AI Search / semantic search
+
+“lightweight travel bag”
+“comfortable running shoes”
+“durable workout clothing”
+“noise cancelling for office”
+“storage for gaming PC”
+“breathable sportswear”
+
+You can also combine page search with category filters:
+
+Category: Clothing, Search: “hoodie”
+Category: Electronics, Search: “wireless”
+Category: Sports, Search: “trail running”
