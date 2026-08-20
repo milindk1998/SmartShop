@@ -7,12 +7,12 @@
 openrouter:
   base_url: "https://openrouter.ai/api/v1"
 
-  api_key: "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"
+  api_key: ""
 
   embed_model: "nvidia/nemotron-3-embed-1b:free"
 
 groq:
-  grok_api_key: "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"
+  grok_api_key: ""
 
   base_url: "https://api.groq.com/openai/v1"
 
